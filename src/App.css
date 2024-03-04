@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  
+  font-size: 1.6em;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width:  70vw;
+  height: 80vh;
+  border-radius: 25px;
+  box-shadow: rgb(0, 183, 255)  .1em .1em .1em;
+  /* background-image: url('./images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.picture-frame {
+  background-color: rgb(0, 183, 255);
+  border-radius: 60px;
+}
+.profile-picture {
+  width:200px;
+  border-radius: 60px;
+  padding: 0;
+}
+
+.description {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: 60vw;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0.5rem;
+}
+.contact-btn {
+  background-color: rgb(0, 183, 255);
+  margin: 8px;
+  box-shadow: rgb(255, 255, 255) .1em .1em;
+  color: black;
+}
+.contact-btn:hover {
+  box-shadow:inset rgb(255, 255, 255) .1em .1em .1em;
+  background-color: transparent;
+  transition:ease-in-out .2s;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+  width: auto;
+  border-radius: 15px;
+  background-color: rgb(0, 183, 255);
+  box-shadow: rgb(255, 255, 255) .1em .1em;
+}
+.socials img {
+  width: 40px;
+  padding: 0 25px;
+  color: aliceblue;
+}
+
+@media only screen and (max-width: 767px) {
+
+.profile-picture {
+    width: 150px;
+  }
+
+.container {
+  padding: 10px;
+  width: 65vw;
+  height: 85vh;
+  font-size: 1em;
+}
+.socials img {
+  width: 35px;
+  padding: 0 5px;
+  color: aliceblue;
+}
+}
+
+
